@@ -71,10 +71,10 @@ pip3 install rich requests tqdm
 ``go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest``
 
 ```
-./P1-URLs.py -l domains.txt
-./P1-URLs.py -l domains.txt --wayback
-./P1-URLs.py -l my_url_list.txt -u
-./P1-URLs.py -l domains.txt --wayback -c my-id.oast.online --proxy-lfi http://proxy1:8080 --proxy-sqli http://proxy2:8080
+./P1UHSE.py -l domains.txt
+./P1UHSE.py -l domains.txt --wayback
+./P1UHSE.py -l my_url_list.txt -u
+./P1UHSE.py -l domains.txt --wayback -c my-id.oast.online --proxy-lfi http://proxy1:8080 --proxy-sqli http://proxy2:8080
 
 ```
 
