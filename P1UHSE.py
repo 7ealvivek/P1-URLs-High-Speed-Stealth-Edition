@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-P1-URLs.py - v4.0.5 (Focused Nuclei Scan)
+P1-URLs.py - v4.0.5 
 
 This version refines the Nuclei scanning step to focus exclusively on
 open redirect vulnerabilities, as requested, while keeping all other
@@ -26,7 +26,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ==============================================================================
 # === Config ===
 # ==============================================================================
-SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
+SLACK_WEBHOOK = "https://hooks.slack.com/services/T03JPK11LNM/B090JPXPXB5/Z6pM1GWzlfTvSNFwm1ZPivk"
 KATANA_CONCURRENCY_DEFAULT, CONCURRENCY_DEFAULT = 25, 25; TIME_DELAY, REQUEST_TIMEOUT = 6, 8
 MAX_REQUESTS_PER_SECOND_DEFAULT = 20
 ALL_GF_PATTERNS = ["lfi", "rce", "redirect", "sqli", "ssrf", "ssti", "xss"]
